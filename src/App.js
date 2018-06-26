@@ -1,5 +1,5 @@
 import React from 'react'
-import ChangeLocale from './changeLocale'
+import ChangeLocale from './changeLocale/changeLocale'
 import Book from './Book/Book'
 import Visit from './visit'
 

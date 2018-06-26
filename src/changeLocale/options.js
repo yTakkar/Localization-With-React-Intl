@@ -1,5 +1,5 @@
 import React from 'react'
-import { localesArray } from './messages'
+import { localesArray } from '../messages'
 
 const Options = () => (
   <React.Fragment>

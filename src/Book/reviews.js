@@ -15,7 +15,7 @@ const ReviewsHeading = () => (
           <span>A good review!!</span>
         </li>
         <li>
-          <span>Worst review every!!</span>
+          <span>Worst review ever!!</span>
         </li>
       </ul>
     </div>

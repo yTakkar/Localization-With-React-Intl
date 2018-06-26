@@ -1,14 +1,14 @@
 import React from 'react'
 import Toggle from './toggle'
 import Purchase from './purchase'
-import ReviewsHeading from './reviewsHeading'
+import Reviews from './reviews'
 
 const Book = () => (
   <div>
     <h1>A BOOK</h1>
     <Toggle />
     <Purchase />
-    <ReviewsHeading />
+    <Reviews />
   </div>
 )
 
