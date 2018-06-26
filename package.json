@@ -1,8 +1,8 @@
 {
   "name": "localization-with-react-intl",
   "version": "1.0.0",
-  "description": "",
-  "keywords": ["localization", "locale"],
+  "description": null,
+  "keywords": ["react-intl", "localization", "locale"],
   "main": "src/index.js",
   "dependencies": {
     "react": "16.3.2",

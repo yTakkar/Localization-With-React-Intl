@@ -1,6 +1,6 @@
 import React from 'react'
 import ChangeLocale from './changeLocale'
-import Book from './components/Book'
+import Book from './Book/Book'
 import Visit from './visit'
 
 class App extends React.Component {
