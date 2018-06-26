@@ -6,13 +6,16 @@ class ChangeLocale extends React.Component {
   render() {
     return (
       <Context.Consumer>
-        {({ actions }) => {
+        {({ state, actions }) => {
           let handleChange = e => actions.changeLocale(e.target.value)
 
           return (
-            <select value="" onChange={handleChange}>
-              <Options />
-            </select>
+            <React.Fragment>
+              <select value="" onChange={handleChange}>
+                <Options />
+              </select>{' '}
+              ({state.locale})
+            </React.Fragment>
           )
         }}
       </Context.Consumer>
