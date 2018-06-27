@@ -6,7 +6,7 @@ const ReviewsHeading = () => (
     <h4>
       <FormattedMessage
         id="detail.reviewsHeading"
-        values={{ reviewsCount: 3 }}
+        values={{ reviewsCount: 0 }}
       />
     </h4>
     <div>

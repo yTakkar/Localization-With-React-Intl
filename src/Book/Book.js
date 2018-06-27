@@ -7,6 +7,7 @@ import Price from './price'
 import Toggle from './toggle'
 import Purchase from './purchase'
 import Reviews from './reviews'
+import AddReview from './addReview'
 
 const Book = () => (
   <div>
@@ -17,6 +18,7 @@ const Book = () => (
     <Toggle />
     <Purchase />
     <Reviews />
+    <AddReview />
   </div>
 )
 

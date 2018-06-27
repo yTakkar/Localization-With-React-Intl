@@ -4,7 +4,9 @@ const messages = {
       author: 'by {author}',
       toggle: 'Toggle',
       purchase: 'Purchase this book from:',
-      reviewsHeading: '{reviewsCount} Reviews'
+      reviewsHeading:
+        '{reviewsCount, plural, =0 {No Reviews} one {1 Review} other {# Reviews}}',
+      inputPlaceholder: 'Wanna add a review?'
     }
   },
   'es-ES': {
@@ -12,7 +14,9 @@ const messages = {
       author: 'de {author}',
       toggle: 'palanca',
       purchase: 'Compra este libro desde:',
-      reviewsHeading: '{reviewsCount} Comentarios'
+      reviewsHeading:
+        '{reviewsCount, plural, =0 {No Opiniones} one {1 Opinione} other {# Opiniones}}',
+      inputPlaceholder: '¿Quieres agregar una reseña?'
     }
   },
   'fr-FR': {
@@ -20,7 +24,9 @@ const messages = {
       author: 'par {author}',
       toggle: 'Basculer',
       purchase: 'acheter ce livre de:',
-      reviewsHeading: '{reviewsCount} Avis'
+      reviewsHeading:
+        '{reviewsCount, plural, =0 {No Avis} one {1 Avi} other {# Avis}}',
+      inputPlaceholder: 'Vous voulez ajouter un avis?'
     }
   }
 }
