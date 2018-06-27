@@ -4,7 +4,10 @@ import { FormattedMessage } from 'react-intl'
 const ReviewsHeading = () => (
   <div>
     <h4>
-      <FormattedMessage id="detail.reviewsHeading" />
+      <FormattedMessage
+        id="detail.reviewsHeading"
+        values={{ reviewsCount: 3 }}
+      />
     </h4>
     <div>
       <ul>
