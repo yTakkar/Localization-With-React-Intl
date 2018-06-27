@@ -11,18 +11,13 @@ import fr from 'react-intl/locale-data/fr'
 
 addLocaleData([...en, ...es, ...fr])
 
-let locale =
-  (navigator.languages && navigator.languages[0]) ||
-  navigator.language ||
-  'en-GB'
-
 class Intl extends React.Component {
   render() {
     return (
       <Context.Consumer>
         {({ state }) => (
           <IntlProvider
-            locale={locale}
+            locale={state.locale}
             messages={flattenMessages(messages[state.locale])}
           >
             {this.props.children}
