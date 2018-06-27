@@ -4,8 +4,7 @@ const messages = {
       author: 'by {author}',
       toggle: 'Toggle',
       purchase: 'Purchase this book from:',
-      reviewsHeading: '{reviewsCount} Reviews',
-      publishedDate: '1514718748562'
+      reviewsHeading: '{reviewsCount} Reviews'
     }
   },
   'es-ES': {
@@ -13,8 +12,7 @@ const messages = {
       author: 'de {author}',
       toggle: 'palanca',
       purchase: 'Compra este libro desde:',
-      reviewsHeading: '{reviewsCount} Comentarios',
-      publishedDate: '1514718748562'
+      reviewsHeading: '{reviewsCount} Comentarios'
     }
   },
   'fr-FR': {
@@ -22,8 +20,7 @@ const messages = {
       author: 'par {author}',
       toggle: 'Basculer',
       purchase: 'acheter ce livre de:',
-      reviewsHeading: '{reviewsCount} Avis',
-      publishedDate: '1514718748562'
+      reviewsHeading: '{reviewsCount} Avis'
     }
   }
 }
