@@ -8,13 +8,19 @@ const Purchase = () => (
     </h4>
     <ul>
       <li>
-        <a href="https://flipkart.com">Flipkart</a>
+        <a href="https://flipkart.com" target="_blank">
+          Flipkart
+        </a>
       </li>
       <li>
-        <a href="https://amazon.in">Amzon</a>
+        <a href="https://amazon.in" target="_blank">
+          Amzon
+        </a>
       </li>
       <li>
-        <a href="https://ebay.in">eBay</a>
+        <a href="https://ebay.in" target="_blank">
+          eBay
+        </a>
       </li>
     </ul>
   </div>
