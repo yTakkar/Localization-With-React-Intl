@@ -11,7 +11,7 @@ import fr from 'react-intl/locale-data/fr'
 
 addLocaleData([...en, ...es, ...fr])
 
-class Intl extends React.Component {
+class Intl extends React.PureComponent {
   render() {
     return (
       <Context.Consumer>

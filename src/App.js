@@ -3,7 +3,7 @@ import ChangeLocale from './changeLocale/changeLocale'
 import Book from './Book/Book'
 import Visit from './visit'
 
-class App extends React.Component {
+class App extends React.PureComponent {
   render() {
     return (
       <div>

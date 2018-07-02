@@ -2,7 +2,7 @@ import React from 'react'
 import Context from '../Context'
 import Options from './options'
 
-class ChangeLocale extends React.Component {
+class ChangeLocale extends React.PureComponent {
   render() {
     return (
       <Context.Consumer>
