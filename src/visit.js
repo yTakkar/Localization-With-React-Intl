@@ -3,8 +3,9 @@ import React from 'react'
 const Visit = () => (
   <div>
     <span>
+      Click{' '}
       <a target="_blank" href="https://codesandbox.io/s/llwk0rrk97">
-        Visit
+        here
       </a>{' '}
       for localization with{' '}
       <a target="_blank" href="https://github.com/stefalda/react-localization">
