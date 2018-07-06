@@ -6,16 +6,16 @@ class Provider extends React.Component {
     locale: 'en-GB'
   }
 
-  actions = () => ({
-    changeLocale: locale => this.setState({ locale })
-  })
+  changeLocale = locale => this.setState({ locale })
 
   render() {
     return (
       <Context.Provider
         value={{
           state: this.state,
-          actions: this.actions()
+          actions: {
+            changeLocale: this.changeLocale
+          }
         }}
       >
         {this.props.children}
